@@ -2,6 +2,7 @@
 
 /**
 * main - a simple shell
+* execute - function to compare string
 *
 * Return: always 0
 */
