@@ -2,7 +2,7 @@
 
 /**
 * main - a simple shell
-* execute - function to compare string
+* execute - 
 *
 * Return: always 0
 */
@@ -77,7 +77,7 @@ int execute(char *lineptr)
 			if (fork() == 0)
 			{
 				execve(full_path, argv, environ);
-				printf("something wrong while executing %s\n", full_path);
+				printf("error executing %s\n", full_path);
 				free(argv);
 				return (0);
 			}
